@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aswin | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top pe-4 p-3">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold ps-4" href="#home">ASWIN</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon bg-light rounded"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+      <ul class="navbar-nav fw-bold">
+        <li class="nav-item "><a class="nav-link" href="#home">HOME</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">SKILLS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">PROJECTS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="d-flex flex-column justify-content-center align-items-center">
+  <i class="bi bi-person-circle" style="font-size: 4rem;"></i>
+  <h1>Hi,Iam ASWIN</h1>
+  <p >A passionate Full Stack Developer in MERN stack.</p>
+  <a href="#projects" style="background-color: rgb(201, 211, 17); font-weight: bold;" class="btn">View My Work</a>
+</section>
+
+<!-- About Section -->
+<section id="about" class="container">
+  <h2 class="fw-bold text-center text-light pb-5">ABOUT ME</h2>
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <img src="image/aswin.crop.JPG" width="350px" alt="Profile-image" class="img-fluid rounded shadow-lg ">
+    </div>
+    <div class="col-md-6">
+      <p class="lead mt-3 mt-md-0 text-light fw-bold">
+        I'm a dedicated developer focused on creating clean, efficient, and scalable web applications.
+        I love bringing creative ideas to life through elegant code. My journey as a MERN stack developer has 
+        taught me how to balance design, performance, and functionality.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-5">
+  <div class="container">
+    <h2 class="fw-bold text-center text-light pb-4">SKILLS</h2>
+    <div class="row">
+      <div class="col-md-6 text-light">
+        <p class="fw-bold">HTML / CSS / Bootstrap</p>
+        <div class="progress mb-3"><div class="progress-bar" style="width: 95%;">95%</div></div>
+        <p class="fw-bold">JavaScript / React.js</p>
+        <div class="progress mb-3"><div class="progress-bar" style="width: 70%;">70%</div></div>
+        <p class="fw-bold">Node.js / Express.js</p>
+        <div class="progress mb-3"><div class="progress-bar" style="width: 50%;">50%</div></div>
+        <p class="fw-bold">MongoDB</p>
+        <div class="progress mb-3"><div class="progress-bar" style="width: 30%;">30%</div></div>
+      </div>
+      <div class="col-md-6 pt-4 ps-4 text-center list-unstyled text-light">
+        <h5 class="fw-bold text-decoration-underline">CERTIFICATIONS & ACHIEVEMENTS</h5>
+          <li>Intern at Luminar technolab Calicut</li>
+          <li>Top Performer in Web Design Hackathon 2025</li>
+          <li>Completed 5+ MERN stack projects</li>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5">
+  <div class="container">
+    <h2 class="fw-bold text-center text-light pb-5">MY PROJECT</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card project-card h-100 shadow-sm text-center">
+          <img src="image/Screenshot 2025-11-13 204628.png" height="250px" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">FURNITURE WEBSITE</h5>
+            <p class="card-text fw-bold">A furniture website using HTML, CSS, and Bootstrap.</p>
+            <a src="https://github.com/ASWIN1860/Bootstrap-furniture-website.git" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">  
+        <div class="card project-card h-100 text-center shadow-sm">
+          <img src="image/Screenshot 2025-11-13 213156.png" height="250px" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">FACEBOOK CLONE</h5>
+            <p class="card-text fw-bold">Old facebook page clone using HTML,CSS</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card project-card h-100 text-center shadow-sm">
+          <img src="image/Screenshot 2025-11-14 170432.png" height="250px" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">NEATY WEBSITE</h5>
+            <p class="card-text fw-bold">Neaty website using HTML,CSS</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="fw-bold text-center text-light pb-4">CONTACT ME</h2>
+    <div class="row">
+      <div class="col-md-6 fw-bold text-center text-light">
+        <p><i class="bi bi-envelope-fill"></i> aswin3577@gmail.com</p>
+        <p><i class="bi bi-phone-fill"></i> +91 9495540200</p>
+        <p><i class="bi bi-geo-alt-fill"></i>Kozhikkode, Kerala, India</p>
+      </div>
+      <div class="col-md-6 pb-5">
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Your Email" required>
+          </div>
+          <div class="mb-3">
+            <textarea rows="4" class="form-control" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn w-100">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-warning">
+  <p class="fw-bold">© 2025 ASWIN. All Rights Reserved.</p>
+  <div>
+    <a href="https://github.com/ASWIN1860"><i class="bi bi-github"></i></a>
+    <a href=""><i class="bi bi-linkedin"></i></a>
+    <a href="#"><i class="bi bi-instagram"></i></a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
