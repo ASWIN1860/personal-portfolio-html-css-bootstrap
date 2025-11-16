@@ -2,13 +2,13 @@ body {
       scroll-behavior: smooth;
       background-color: black;
       padding-top: 40px;
-      font-family: cursive;
+      font-family: ;
     }
     html{
       scroll-padding-top: 150px;
     }
     .navbar {
-      background-color: #672991;
+      background-color:rgb(172, 172, 17);
       transition: transform 300ms;
     }
     .navbar a {
