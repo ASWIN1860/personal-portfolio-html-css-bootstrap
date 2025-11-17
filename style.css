@@ -3,13 +3,13 @@ body {
       background-color:black ;
     }
     html{
-      scroll-padding-top: px;
+      scroll-padding-top:80px;
     }
     h1{
       font-family: "Knewave", system-ui;
       font-weight: 400;
       font-style: normal;
-      color:#910cea
+      color:rgb(11, 218, 250);
     }
     p{
       font-family: "Carter One", system-ui;
