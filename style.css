@@ -6,10 +6,8 @@ body {
       scroll-padding-top:80px;
     }
     h1{
-      font-family: "Knewave", system-ui;
-      font-weight: 400;
-      font-style: normal;
-      color:rgb(11, 218, 250);
+      font-family:verdana;
+      color: rgb(14, 194, 226);
     }
     p{
       font-family: "Carter One", system-ui;
@@ -34,6 +32,8 @@ body {
     .navbar {
       background-color:black;
       transition: transform 300ms;
+      backdrop-filter: blur(10px);
+      background: rgba(0, 0, 0, 0.3);
     }
     .navbar a {
       color: yellow !important;
@@ -67,6 +67,27 @@ body {
       color: black;
       font-size: small;
       font-weight: bold;
+    }
+    .skill-card {
+    background:black;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+    }
+    .skill-card img {
+    width: 45px;
+    height: 45px;
+    }
+    .skill-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.15);
+    box-shadow: rgb(7, 89, 139);
     }
     .project-card {
       transition: transform 0.20s, box-shadow 0.20s;
